@@ -1,0 +1,147 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_carosello": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sub_hero_titolo": {
+      "type": "string",
+      "required": true
+    },
+    "sub_hero_sottotitolo": {
+      "type": "string",
+      "required": true
+    },
+    "sub_hero_descrizione": {
+      "type": "text",
+      "maxLength": 730,
+      "required": true
+    },
+    "sub_hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sub_hero_video": {
+      "type": "string"
+    },
+    "esperienze_titolo": {
+      "type": "string",
+      "required": true
+    },
+    "esperienze_classiche": {
+      "type": "component",
+      "component": "cards.experience-card",
+      "repeatable": true,
+      "required": true
+    },
+    "esperienze_contemporanee": {
+      "type": "component",
+      "component": "cards.experience-card",
+      "repeatable": true,
+      "required": true
+    },
+    "esperienze_uniche": {
+      "type": "component",
+      "component": "cards.experience-card",
+      "repeatable": true
+    },
+    "visit_cards_titolo": {
+      "type": "string",
+      "required": true
+    },
+    "visit_cards_descrizione": {
+      "type": "text",
+      "maxLength": 550,
+      "required": true
+    },
+    "visit_cards_immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card_1": {
+      "type": "component",
+      "component": "cards.visit-card",
+      "repeatable": true,
+      "required": true
+    },
+    "card_2": {
+      "type": "component",
+      "component": "cards.visit-card",
+      "repeatable": true,
+      "required": true
+    },
+    "stories_testo": {
+      "type": "text"
+    },
+    "stories_gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "social_titolo": {
+      "type": "string",
+      "required": true
+    },
+    "social_immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner_immagine": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner_testo": {
+      "type": "string"
+    }
+  }
+}

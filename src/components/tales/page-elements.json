@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_tales_page_elements",
+  "info": {
+    "displayName": "page_elements"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "text",
+      "required": true
+    },
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "richtext",
+      "required": true
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

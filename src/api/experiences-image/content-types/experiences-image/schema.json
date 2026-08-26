@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences_images",
+  "info": {
+    "singularName": "experiences-image",
+    "pluralName": "experiences-images",
+    "displayName": "Experiences Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "kind": "singleType",
+  "collectionName": "whos",
+  "info": {
+    "singularName": "who",
+    "pluralName": "whos",
+    "displayName": "Chi siamo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sub_hero_titolo": {
+      "type": "string",
+      "required": true
+    },
+    "sub_hero_descrizione": {
+      "type": "text",
+      "maxLength": 540,
+      "required": true
+    },
+    "sub_hero_immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "motto": {
+      "type": "text",
+      "required": true
+    },
+    "anime_titolo": {
+      "type": "string",
+      "required": true
+    },
+    "anime_descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "tales_of_1": {
+      "type": "component",
+      "component": "cards.tales-of",
+      "repeatable": true,
+      "required": true
+    },
+    "tales_of_2": {
+      "type": "component",
+      "component": "cards.tales-of",
+      "repeatable": true,
+      "required": true
+    },
+    "tales_of_3": {
+      "type": "component",
+      "component": "cards.tales-of",
+      "repeatable": true
+    },
+    "team_titolo": {
+      "type": "string",
+      "required": true
+    },
+    "team_1": {
+      "type": "component",
+      "component": "cards.team-member",
+      "repeatable": true,
+      "required": true
+    },
+    "team_2": {
+      "type": "component",
+      "component": "cards.team-member",
+      "repeatable": true,
+      "required": true
+    },
+    "team_3": {
+      "type": "component",
+      "component": "cards.team-member",
+      "repeatable": true,
+      "required": true
+    },
+    "team_4": {
+      "type": "component",
+      "component": "cards.team-member",
+      "repeatable": true,
+      "required": true
+    }
+  }
+}

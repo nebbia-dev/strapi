@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contatti"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "telefono": {
+      "type": "string",
+      "required": false
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "indirizzo": {
+      "type": "string"
+    },
+    "rea": {
+      "type": "string"
+    },
+    "pec": {
+      "type": "string"
+    },
+    "capitale_sociale": {
+      "type": "string"
+    },
+    "pIva": {
+      "type": "string"
+    }
+  }
+}

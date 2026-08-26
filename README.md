@@ -29,7 +29,10 @@ When developing locally this Strapi template will connect to the Postgres server
 - Within the local repository run `railway link` to link the local repository to the Strapi service on Railway
 - Start Strapi for development with `railway run yarn run develop` or `railway run npm run develop`
     - This command will run Strapi in development mode with the service variables available locally
-- Open your browser to `http://127.0.0.1:1337/admin`
+    - Do not use `yarn develop` or `npm run develop` directly: without
+      `DATABASE_PUBLIC_URL`, PostgreSQL can fall back to a shared local database and
+      another Strapi instance can overwrite its schema
+- Open your browser to `http://127.0.0.1:1339/admin`
 
 ## 📝 Notes
 

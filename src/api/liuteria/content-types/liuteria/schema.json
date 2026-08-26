@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "liuterias",
+  "info": {
+    "singularName": "liuteria",
+    "pluralName": "liuterias",
+    "displayName": "Liuteria"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "elements": {
+      "type": "component",
+      "component": "tales.page-elements",
+      "repeatable": false,
+      "required": true
+    },
+    "compositore_1": {
+      "type": "component",
+      "component": "tales.composer",
+      "repeatable": true,
+      "required": true
+    },
+    "compositore_2": {
+      "type": "component",
+      "component": "tales.composer",
+      "repeatable": true
+    },
+    "compositore_3": {
+      "type": "component",
+      "component": "tales.composer",
+      "repeatable": true
+    },
+    "download_1": {
+      "type": "component",
+      "component": "downloads.downloads",
+      "repeatable": true
+    },
+    "download_2": {
+      "type": "component",
+      "component": "downloads.downloads",
+      "repeatable": true
+    },
+    "download_3": {
+      "type": "component",
+      "component": "downloads.downloads",
+      "repeatable": true
+    }
+  }
+}

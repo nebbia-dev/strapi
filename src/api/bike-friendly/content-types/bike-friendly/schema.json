@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bike_friendlies",
+  "info": {
+    "singularName": "bike-friendly",
+    "pluralName": "bike-friendlies",
+    "displayName": "Bike-friendly"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "tipo": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "link": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "indirizzo": {
+      "type": "string"
+    }
+  }
+}

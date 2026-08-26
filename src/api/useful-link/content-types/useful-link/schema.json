@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "useful_links",
+  "info": {
+    "singularName": "useful-link",
+    "pluralName": "useful-links",
+    "displayName": "Useful Links"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

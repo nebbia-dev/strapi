@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "cicloturismos",
+  "info": {
+    "singularName": "cicloturismo",
+    "pluralName": "cicloturismos",
+    "displayName": "Cicloturismo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "elements": {
+      "type": "component",
+      "component": "tales.page-elements",
+      "repeatable": false,
+      "required": true
+    },
+    "download_1": {
+      "type": "component",
+      "component": "downloads.downloads",
+      "repeatable": true
+    },
+    "download_2": {
+      "type": "component",
+      "component": "downloads.downloads",
+      "repeatable": true
+    },
+    "download_3": {
+      "type": "component",
+      "component": "downloads.downloads",
+      "repeatable": true
+    }
+  }
+}

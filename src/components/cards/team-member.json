@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_cards_team_members",
+  "info": {
+    "displayName": "membro_team"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "ruolo": {
+      "type": "string",
+      "required": true
+    },
+    "profilo_linkedin": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

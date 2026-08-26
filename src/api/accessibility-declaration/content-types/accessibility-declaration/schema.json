@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "accessibility_declarations",
+  "info": {
+    "singularName": "accessibility-declaration",
+    "pluralName": "accessibility-declarations",
+    "displayName": "Dichiarazione di accessibilità"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "contenuto": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_cards_experience_cards",
+  "info": {
+    "displayName": "esperienza"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "descrizione": {
+      "type": "text",
+      "required": true
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titolo": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rents",
+  "info": {
+    "singularName": "rent",
+    "pluralName": "rents",
+    "displayName": "Rent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "tipo": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "link": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "indirizzo": {
+      "type": "string"
+    },
+    "lun": {
+      "type": "string"
+    },
+    "mar": {
+      "type": "string"
+    },
+    "mer": {
+      "type": "string"
+    },
+    "gio": {
+      "type": "string"
+    },
+    "ven": {
+      "type": "string"
+    },
+    "sab": {
+      "type": "string"
+    },
+    "dom": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "kind": "singleType",
+  "collectionName": "discovers",
+  "info": {
+    "singularName": "discover",
+    "pluralName": "discovers",
+    "displayName": "Scopri il territorio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titolo_1": {
+      "type": "string",
+      "required": true
+    },
+    "testo_1": {
+      "type": "text",
+      "maxLength": 1220,
+      "required": true
+    },
+    "immagine_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titolo_2": {
+      "type": "string",
+      "required": true
+    },
+    "testo_2": {
+      "type": "text",
+      "maxLength": 1000,
+      "required": true
+    },
+    "immagine_2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titolo_3": {
+      "type": "string",
+      "required": true
+    },
+    "testo_3": {
+      "type": "text",
+      "required": true
+    },
+    "immagine_3": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "anime_testo": {
+      "type": "text",
+      "required": true
+    },
+    "cycling_testo": {
+      "type": "text",
+      "maxLength": 340,
+      "required": true
+    },
+    "luthiery_testo": {
+      "type": "text",
+      "maxLength": 340,
+      "required": true
+    },
+    "immagine_mappa_cycling": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "immagine_mappa_luthiery": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

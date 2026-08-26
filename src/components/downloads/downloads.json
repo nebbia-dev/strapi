@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_downloads_downloads",
+  "info": {
+    "displayName": "download"
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "download": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "sottotitolo": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

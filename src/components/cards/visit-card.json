@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_cards_visit_cards",
+  "info": {
+    "displayName": "visit_cremona"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "prezzo": {
+      "type": "decimal",
+      "required": true
+    },
+    "dettaglio_1": {
+      "type": "string",
+      "required": true
+    },
+    "dettaglio_2": {
+      "type": "string"
+    },
+    "dettaglio_3": {
+      "type": "string"
+    },
+    "dettaglio_4": {
+      "type": "string"
+    },
+    "dettaglio_5": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
