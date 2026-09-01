@@ -868,7 +868,7 @@ export interface ApiDiscoverDiscover extends Struct.SingleTypeSchema {
         };
       }> &
       Schema.Attribute.SetMinMaxLength<{
-        maxLength: 1000;
+        maxLength: 1500;
       }>;
     testo_3: Schema.Attribute.Text &
       Schema.Attribute.Required &
