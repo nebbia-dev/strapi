@@ -9,42 +9,81 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "elements": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "tales.page-elements",
       "repeatable": false,
       "required": true
     },
     "compositore_1": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "tales.composer",
       "repeatable": true,
       "required": true
     },
     "compositore_2": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "tales.composer",
       "repeatable": true
     },
     "compositore_3": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "tales.composer",
       "repeatable": true
     },
     "download_1": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "downloads.downloads",
       "repeatable": true
     },
     "download_2": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "downloads.downloads",
       "repeatable": true
     },
     "download_3": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "downloads.downloads",
       "repeatable": true
     }
