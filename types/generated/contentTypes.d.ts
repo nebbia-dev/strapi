@@ -1114,7 +1114,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
         };
       }> &
       Schema.Attribute.SetMinMaxLength<{
-        maxLength: 550;
+        maxLength: 800;
       }>;
     visit_cards_immagine: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
