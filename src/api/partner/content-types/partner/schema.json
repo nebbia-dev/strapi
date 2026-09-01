@@ -9,123 +9,247 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "partners_titolo": {
       "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "required": true
     },
     "diventa_partner_titolo": {
       "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "required": true
     },
     "diventa_partner_descrizione": {
       "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "required": true
     },
     "partner_1": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true,
       "required": true
     },
     "partner_2": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_3": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_4": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_5": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_6": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_7": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_8": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_9": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_10": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_11": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_12": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_13": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_14": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_15": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_16": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_17": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "partner_18": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "loghi.partner",
       "repeatable": true
     },
     "download_1": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "downloads.downloads",
       "repeatable": true
     },
     "download_2": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "downloads.downloads",
       "repeatable": true
     },
     "download_3": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "downloads.downloads",
       "repeatable": true
     }
