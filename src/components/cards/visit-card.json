@@ -28,6 +28,10 @@
     },
     "dettaglio_5": {
       "type": "string"
+    },
+    "intro": {
+      "type": "richtext",
+      "required": true
     }
   },
   "config": {}

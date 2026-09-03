@@ -49,6 +49,7 @@ export interface CardsVisitCard extends Struct.ComponentSchema {
     dettaglio_3: Schema.Attribute.String;
     dettaglio_4: Schema.Attribute.String;
     dettaglio_5: Schema.Attribute.String;
+    intro: Schema.Attribute.RichText & Schema.Attribute.Required;
     nome: Schema.Attribute.String & Schema.Attribute.Required;
     prezzo: Schema.Attribute.Decimal & Schema.Attribute.Required;
   };
